@@ -1,0 +1,22 @@
+{
+  "name": "appgen-pro",
+  "version": "1.0.0",
+  "description": "Zero-code platform to instantly generate and deploy full-stack apps",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["no-code", "deployment", "automation", "github", "railway"],
+  "author": "Jay's Frames",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "@octokit/rest": "^20.0.2",
+    "axios": "^1.6.0",
+    "archiver": "^6.0.1"
+  }
+}
